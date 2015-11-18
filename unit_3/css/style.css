@@ -1,19 +1,19 @@
 body {
 	font-family: Arial; sans-serif;
-	background-color: rgb(108, 122, 137);
+	background-color: rgb(52,73,94);
 }
 h1 {
-	color: rgb(238, 238, 238);
+	color: rgb(238,238,238);
 	font-size: 36px;
 	text-align: center;
 }
 p {
-	color: rgb(30, 130, 76);
+	color: rgb(30,130,76);
 	text-align: justify;
 	font-size: 20px;
 }
 ul, li {
-	color: rgb(30, 130, 76);
+	color: rgb(30,130,76);
 	font-size: 20px;
 }
 #slogan {
