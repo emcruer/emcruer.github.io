@@ -1,5 +1,4 @@
 body {
-	background-image: url("images/blurrycrowd.jpg");
 	font-family: Arial; sans-serif;
 	background-color: rbg(108, 122, 137);
 }
@@ -28,6 +27,6 @@ hr {
 	padding: 2px;
 	color: rgb(238,238,238);
 }
-#conact {
+#contact {
 	text-align: center;
 }
