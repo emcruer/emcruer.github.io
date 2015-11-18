@@ -1,6 +1,6 @@
 body {
 	background-image: url("images/blurrycrowd.jpg");
-	font-family: Helvetica; sans-serif;
+	font-family: Arial; sans-serif;
 }
 h1 {
 	color: rgb(238, 238, 238);
@@ -17,7 +17,8 @@ ul, li {
 	font-family: Georgia; sans-serif;
 	font-style: italic;
 	color: rgb(238,238,238);
+	text-align: center;
 }
 hr {
-	padding: 20px;
+	padding: 2px;
 }
