@@ -1,0 +1,26 @@
+.hero {
+	background-image: url("images/blurrycrowd.jpg");
+	}
+body {
+	background-color: rgb(189, 195, 199);
+	font-family: Helvetica; sans-serif;
+}
+h1 {
+	color: rgb(238, 238, 238);
+	font-size: 24px;
+	text-align: center;
+
+}
+p {
+	color: rgb(30, 130, 76);
+}
+ul, li {
+	color: rgb(30, 130, 76);
+
+}
+#slogan {
+	font-family: Georgia; sans-serif;
+	font-style: italic;
+	color: rgb(238,238,238);
+}
+
