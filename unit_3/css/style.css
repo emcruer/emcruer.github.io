@@ -4,16 +4,14 @@ body {
 }
 h1 {
 	color: rgb(238, 238, 238);
-	font-size: 24px;
+	font-size: 36px;
 	text-align: center;
-
 }
 p {
 	color: rgb(30, 130, 76);
 }
 ul, li {
 	color: rgb(30, 130, 76);
-
 }
 #slogan {
 	font-family: Georgia; sans-serif;
