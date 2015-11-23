@@ -1,35 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
 body {
-	font-family: Arial; sans-serif;
 	background-color: rgb(52,73,94);
+	font-family:'Merriweather', serif;
 }
 h1 {
 	color: rgb(238,238,238);
+	font-family: 'Poiret One', cursive;
 	font-size: 36px;
-	text-align: center;
-}
-p {
-	color: rgb(30,130,76);
-	text-align: justify;
-	font-size: 20px;
-}
-ul, li {
-	color: rgb(30,130,76);
-	font-size: 20px;
-}
-#slogan {
-	font-family: Georgia; sans-serif;
-	font-style: italic;
-	font-size: 24px;
-	color: rgb(238,238,238);
-	text-align: center;
-}
-hr {
-	padding: 2px;
-	color: rgb(238,238,238);
-}
-#contact {
+	font-weight: 700;
 	text-align: center;
 }
 img {
 	width: 100%;
+}
+p {
+	color: rgb(238,238,238);
+	font-size: 20px;
+	text-align: justify;
+}
+ul, li {
+	color: rgb(238,238,238);
+	font-size: 20px;
+}
+#slogan {
+	color: rgb(238,238,238);
+	font-family: Georgia; sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	text-align: center;
+}
+hr {
+	color: rgb(238,238,238);
+	padding: 2px;
+}
+#contact {
+	text-align: center;
 }
