@@ -25,7 +25,7 @@ ul, li {
 }
 #slogan {
 	color: rgb(238,238,238);
-	font-family: Georgia; sans-serif;
+	font-family:'Merriweather', serif;
 	font-style: italic;
 	font-size: 24px;
 	text-align: center;
