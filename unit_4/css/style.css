@@ -4,6 +4,17 @@ body {
 	background-color: rgb(52,73,94);
 	font-family:'Merriweather', serif;
 }
+header {
+	background-color: #FFED74;
+	border: 20px black solid;
+	padding: 10px;
+}
+nav {
+	background-color: #E8C66A;
+}
+section {
+	background-color: #FFE2B8;
+}
 h1 {
 	color: rgb(238,238,238);
 	font-family: 'Poiret One', sans-serif;
@@ -43,4 +54,7 @@ hr {
 }
 #contact {
 	text-align: center;
+}
+footer {
+	background-color: #FF957E;
 }
