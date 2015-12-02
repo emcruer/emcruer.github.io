@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+body {
+	background-color: rgb(52,73,94);
+	font-family:'Merriweather', serif;
+}
+header {
+	background-color: #FFED74;
+	border: 20px black solid;
+	padding: 10px;
+}
+nav {
+	background-color: #E8C66A;
+}
+section {
+	background-color: #FFE2B8;
+}
+h1 {
+	color: rgb(238,238,238);
+	font-family: 'Poiret One', sans-serif;
+	font-size: 3.5em;
+	font-weight: 700;
+	text-align: center;
+}
+img {
+	width: 100%;
+}
+p {
+	color: rgb(238,238,238);
+	font-size: 20px;
+	text-align: center;
+}
+ul, li {
+	color: rgb(238,238,238);
+	font-size: 20px;
+}
+#hero {
+	background-image: url("../images/blurrycrowd.jpg");
+	background-position: top;
+	background-size: cover;
+	height: 400px;
+}
+#slogan {
+	color: rgb(238,238,238);
+	font-family:'Merriweather', serif;
+	font-style: italic;
+	font-size: 36px;
+	text-align: center;
+	padding: 10%;
+}
+hr {
+	color: rgb(238,238,238);
+	padding: 2px;
+}
+#contact {
+	text-align: center;
+}
+footer {
+	background-color: #FF957E;
+}
