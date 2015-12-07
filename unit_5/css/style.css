@@ -14,9 +14,10 @@ nav {
 }
 section {
 	background-color: #FFE2B8;
+	color: #000000;
 }
 h1 {
-	color: rgb(238,238,238);
+	color: #000000;
 	font-family: 'Poiret One', sans-serif;
 	font-size: 3.5em;
 	font-weight: 700;
@@ -26,12 +27,12 @@ img {
 	width: 100%;
 }
 p {
-	color: rgb(238,238,238);
+	color: #000000;
 	font-size: 20px;
 	text-align: center;
 }
 ul, li {
-	color: rgb(238,238,238);
+	color: rgb(0,0,0;
 	font-size: 20px;
 }
 #hero {
@@ -41,7 +42,7 @@ ul, li {
 	height: 400px;
 }
 #slogan {
-	color: rgb(238,238,238);
+	color: #000000;
 	font-family:'Merriweather', serif;
 	font-style: italic;
 	font-size: 36px;
