@@ -55,7 +55,8 @@ footer {
 	margin: 1em;
 	margin-left: 6em;
 	padding: 2em;
-	background-color: #2a3890;
+	background-color: #FFB7CF;
+	border: 1px black solid;
 	
 }
 .column2of3 {
@@ -64,7 +65,8 @@ footer {
 	margin: 1em;
 	margin-left: 4em;
 	padding: 2em;
-	background-color: #0f75bc;
+	background-color: #E582A2;
+	border: 1px black solid;
 }
 .column3of3 {
 	float: left;
@@ -72,7 +74,8 @@ footer {
 	margin: 1em;
 	margin-right: 6em;
 	padding: 2em;
-	background-color: #2a3890;
+	background-color: #E55B88;
+	border: 1px black solid;
 }
 .column1of3, .column2of3, .column3of3 {
 }
