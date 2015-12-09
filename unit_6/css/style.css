@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #0b9444;
+	background-color: violet;
 	color: #000000;
 	font-family:'Merriweather', serif;
 	font-size: 20px;
@@ -51,17 +51,16 @@ footer {
 }
 .column1of3 {
 	float: left;
-	width: 300px;
+	width: 30%;
 	margin: 1em;
 	margin-left: 6em;
 	padding: 2em;
 	background-color: #FFB7CF;
 	border: 1px black solid;
-	
 }
 .column2of3 {
 	float: left;
-	width: 300px;
+	width: 30%;
 	margin: 1em;
 	margin-left: 4em;
 	padding: 2em;
@@ -70,14 +69,17 @@ footer {
 }
 .column3of3 {
 	float: left;
-	width: 300px;
+	width: 30%;
 	margin: 1em;
 	margin-right: 6em;
 	padding: 2em;
 	background-color: #E55B88;
 	border: 1px black solid;
 }
-.column1of3, .column2of3, .column3of3 {
+#three_column {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
 }
 #hero {
 	background-image: url("../images/blurrycrowd.jpg");
