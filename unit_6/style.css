@@ -76,7 +76,10 @@ footer {
 	background-color: #E55B88;
 	border: 1px black solid;
 }
-.column1of3, .column2of3, .column3of3 {
+#three_column {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
 }
 #hero {
 	background-image: url("../images/blurrycrowd.jpg");
