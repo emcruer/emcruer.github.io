@@ -25,6 +25,10 @@ section {
 	background-color: #8cc63e;
 	color: #000000;
 	padding: 1em;
+	border: 1px black solid;
+}
+.about {
+	border: 1px black solid;
 }
 h1 {
 	font-family: 'Poiret One', sans-serif;
@@ -52,34 +56,29 @@ footer {
 .column1of3 {
 	float: left;
 	width: 30%;
-	margin: 1em;
-	margin-left: 6em;
-	padding: 2em;
+	padding: 10px;
 	background-color: #FFB7CF;
 	border: 1px black solid;
 }
 .column2of3 {
 	float: left;
 	width: 30%;
-	margin: 1em;
-	margin-left: 4em;
-	padding: 2em;
+	padding: 10px;
 	background-color: #E582A2;
 	border: 1px black solid;
 }
 .column3of3 {
 	float: left;
 	width: 30%;
-	margin: 1em;
-	margin-right: 6em;
-	padding: 2em;
+	padding: 10px;
 	background-color: #E55B88;
 	border: 1px black solid;
 }
 #three_column {
 	background-color: pink;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 2em;
+	margin: 1em;
 }
 #hero {
 	background-image: url("../images/blurrycrowd.jpg");
