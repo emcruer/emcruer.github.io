@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: violet;
+	background-color: #0f75bc;
 	color: #000000;
 	font-family:'Merriweather', serif;
 	font-size: 20px;
@@ -29,6 +29,8 @@ section {
 }
 .about {
 	border: 1px black solid;
+	margin-right: 10%
+	margin-left: 10%;
 }
 h1 {
 	font-family: 'Poiret One', sans-serif;
@@ -52,32 +54,35 @@ ul, li {
 footer {
 	background-color: #8cc63e;
 	clear: both;
+	padding: 5%;
 }
 .column1of3 {
 	float: left;
 	width: 28%;
 	padding: 2%;
-	background-color: #FFB7CF;
+	background-color: #39b54a;
 	border: 1px black solid;
 	margin-right: 4%;
+	margin-left: 4%;
 }
 .column2of3 {
 	float: left;
 	width: 28%;
 	padding: 2%;
-	background-color: #E582A2;
+	background-color: #8cc63e;
 	border: 1px black solid;
 	margin-right: 4%;
+	padding-bottom: 5%;
 }
 .column3of3 {
 	float: left;
 	width: 28%;
 	padding: 2%;
-	background-color: #E55B88;
+	background-color: #39b54a;
 	border: 1px black solid;
 }
 #three_column {
-	background-color: pink;
+	background-color: #0f75bc;
 	border: 1px black solid;
 	padding: 2em;
 	margin: 1em;
@@ -86,22 +91,49 @@ footer {
 	background-image: url("../images/blurrycrowd.jpg");
 	background-position: top;
 	background-size: cover;
-	height: 400px;
+	height: 35%;
 }
 #slogan {
 	font-style: italic;
-	font-size: 36px;
+	font-size: 1.5em;
 	text-align: center;
 	padding: 10%;
 }
 #contact {
 	text-align: center;
 }
-.clearfix:after{
+.clearfix:after {
 	display: block;
 	clear: both;
 	content:"";
 	visibility: hidden;
 	font-size: 0;
 	font-height: 0;
+}
+@media only screen and (max-width: 1250px) {
+	.column1of3, .column2of3, .column3of3 {
+		float: none;
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+}
+@media only screen and (max-width: 620px) {
+	#slogan {
+		font-size: .2em;
+	}
+	h1 {
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 455px) {
+	#slogan {
+		display: none;
+	}
+	nav {
+		float: none;
+	}
+	.column1of3, .column2of3, .column3of3 {
+		width: 100%;
+	}
 }
