@@ -120,7 +120,7 @@ footer {
 }
 @media only screen and (max-width: 620px) {
 	#slogan {
-		font-size: .2em;
+		display: none;
 	}
 	h1 {
 		font-size: 2em;
