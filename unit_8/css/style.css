@@ -8,7 +8,7 @@ body {
 	font-size: 20px;
 }
 header {
-	background-color: #8cc63e;
+	background-color: #fff;
 	border: 1em black solid;
 	padding: .5em;
 }
@@ -19,7 +19,11 @@ a:hover{
 	text-decoration: underline;
 }
 nav {
-	background-color: #8cc63e;
+	background-color: #fff;
+	float: right;
+	margin: auto;
+	padding-top: 2.5%;
+	color: black;
 }
 section {
 	background-color: #fff;
@@ -29,7 +33,7 @@ section {
 }
 .about {
 	border: 1px black solid;
-	margin-right: 10%
+	margin-right: 10%;
 	margin-left: 10%;
 }
 h1 {
@@ -102,6 +106,9 @@ footer {
 #contact {
 	text-align: center;
 }
+#logo {
+	width: 25%;
+}
 .clearfix:after {
 	display: block;
 	clear: both;
@@ -117,16 +124,45 @@ footer {
 		margin-right: 10%;
 		margin-left: 10%;
 	}
+	#menu {
+		display: none;
+	}
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 720px) {
 	#slogan {
 		display: none;
 	}
 	h1 {
 		font-size: 2em;
 	}
+	#mobile {
+		text-align: center;
+		padding-bottom: 1em;
+		display: block;
+		margin: auto;
+	}
+	nav a {
+		width: auto;
+		float: none;
+		border-bottom: 1px solid #666;
+		display: none;
+	}
+	#logo {
+		display: none;
+	}
+	header {
+		padding-bottom: 1.5em;
+	}
+	#menu {
+		text-align: center;
+		display: block;
+		font-size: 1em;
+	}
+	nav:hover a {
+		display: block;
+	}
 }
-@media only screen and (max-width: 455px) {
+@media only screen and (max-width: 450px) {
 	#slogan {
 		display: none;
 	}
@@ -135,5 +171,18 @@ footer {
 	}
 	.column1of3, .column2of3, .column3of3 {
 		width: 100%;
+		margin: auto;
+	}
+	#mobile {
+		text-align: center;
+		padding-left: 1em;
+		padding-right: 1em;
+		display: block;
+	}
+	nav:hover a {
+		display: block;
+	}
+	#logo {
+		display: none;
 	}
 }
