@@ -12,6 +12,9 @@ header {
 	border: 1em black solid;
 	padding: .5em;
 }
+#menu{
+	display: none;
+}
 a {
 	text-decoration: none;
 }
